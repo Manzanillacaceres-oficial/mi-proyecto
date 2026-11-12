@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#dfe4d2"/>
+      <stop offset="1" stop-color="#c5d0ae"/>
+    </linearGradient>
+    <linearGradient id="field" x2="0" y2="1">
+      <stop stop-color="#9baa78"/>
+      <stop offset="1" stop-color="#586f4a"/>
+    </linearGradient>
+    <linearGradient id="trunk" x2="1" y2="0">
+      <stop stop-color="#514b35"/>
+      <stop offset=".5" stop-color="#82714c"/>
+      <stop offset="1" stop-color="#494b33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="620" fill="url(#sky)"/>
+  <circle cx="755" cy="145" r="73" fill="#eee9c9" opacity=".8"/>
+  <path d="M0 315 168 238l117 54 170-112 143 122 149-86 253 114v111H0Z" fill="#9cae8c" opacity=".72"/>
+  <path d="M0 371 145 315l152 46 159-76 145 73 174-66 225 83v92H0Z" fill="#83956f"/>
+  <path d="M0 412q220-89 445-9t555-5v222H0Z" fill="url(#field)"/>
+  <path d="M0 501q260-114 526-27t474-25v171H0Z" fill="#728558"/>
+  <g fill="#4a6041">
+    <path d="M98 404q-19-63 2-112l14 3q-8 54 1 101Z"/><path d="M68 326q-14-36 18-61 35 1 41 38-17 26-59 23Z"/>
+    <path d="M267 384q-12-52 7-96l14 3q-10 45 0 84Z"/><path d="M235 313q-12-33 19-58 34 3 39 36-19 24-58 22Z"/>
+    <path d="M449 375q-17-55 2-102l15 3q-9 47 4 91Z"/><path d="M415 294q-10-37 23-61 35 7 34 41-21 25-57 20Z"/>
+    <path d="M654 391q-15-58 4-104l15 3q-9 49 2 93Z"/><path d="M619 310q-10-34 23-58 35 5 35 39-21 25-58 19Z"/>
+    <path d="M857 385q-14-57 5-102l15 3q-10 48 2 91Z"/><path d="M824 306q-10-35 22-59 35 4 36 39-21 24-58 20Z"/>
+  </g>
+  <g fill="#62794c" opacity=".93">
+    <path d="M145 482q-13-46 5-82l12 3q-9 36 1 71Z"/><path d="M118 420q-7-28 20-47 28 5 27 31-17 19-47 16Z"/>
+    <path d="M354 471q-10-41 5-74l12 2q-8 35 1 65Z"/><path d="M330 416q-7-27 19-44 27 4 27 29-16 19-46 15Z"/>
+    <path d="M552 491q-11-43 5-77l12 2q-8 36 1 68Z"/><path d="M527 433q-7-27 20-45 28 5 27 30-17 19-47 15Z"/>
+    <path d="M760 473q-10-40 5-74l12 2q-8 35 1 65Z"/><path d="M736 417q-7-27 19-44 28 4 27 29-16 19-46 15Z"/>
+    <path d="M941 492q-11-42 5-76l12 2q-8 36 1 67Z"/><path d="M916 434q-7-27 20-45 27 5 27 30-17 19-47 15Z"/>
+  </g>
+  <path d="M0 571q191-64 395-5t393-5q106-27 212-5v64H0Z" fill="#536b47" opacity=".65"/>
+</svg>

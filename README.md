@@ -13,8 +13,10 @@ configurar un servidor ni compilar el proyecto.
 
 - `index.html` contiene el contenido semántico y las secciones de la página.
 - `styles.css` define los colores, la composición responsive y las animaciones.
-- `script.js` controla el menú móvil, las preguntas desplegables y las
-  animaciones de entrada al desplazarse.
+- `script.js` controla el menú móvil y las animaciones de entrada al
+  desplazarse.
+- `images/olivar.svg` es la ilustración local de la nueva sección sobre el
+  paisaje olivarero.
 
 La página no necesita dependencias ni servicios externos. Para cambiar el texto,
 edita el HTML; para ajustar el aspecto, modifica las variables y reglas de
