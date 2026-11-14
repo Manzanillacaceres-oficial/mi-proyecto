@@ -16,8 +16,26 @@ navigation.addEventListener("click", (event) => {
   }
 });
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Abrir menú");
+    navigation.classList.remove("is-open");
+    menuButton.focus();
+  }
+});
+
+const contactForm = document.querySelector("#contact-form");
+const contactStatus = document.querySelector("#contact-status");
+
+contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  contactStatus.textContent =
+    "Tu mensaje no se ha enviado: este formulario aún no está conectado a un servicio de recepción.";
+});
+
 const revealElements = document.querySelectorAll(
-  ".intro-grid, .origin-strip, .character-heading, .trait-card, .process-copy, .process-step, .quote-section blockquote",
+  ".intro-grid, .origin-strip, .character-heading, .trait-card, .process-copy, .process-step, .quote-section blockquote, .contact-copy, .contact-form",
 );
 
 if ("IntersectionObserver" in window) {

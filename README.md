@@ -15,8 +15,11 @@ configurar un servidor ni compilar el proyecto.
 - `styles.css` define los colores, la composición responsive y las animaciones.
 - `script.js` controla el menú móvil y las animaciones de entrada al
   desplazarse.
-- `images/olivar.svg` es la ilustración local de la nueva sección sobre el
-  paisaje olivarero.
+- `images/olivar.svg` es la ilustración de la sección sobre el paisaje olivarero.
+- `images/olivar-foto.jpg` es la fotografía del olivar que aparece en el bloque
+  principal. Foto de Dietmar Rabich, Wikimedia Commons, «Korfu (GR), Agii
+  Douli, Olivenhain -- 2018 -- 1284-8», con licencia
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 La página no necesita dependencias ni servicios externos. Para cambiar el texto,
 edita el HTML; para ajustar el aspecto, modifica las variables y reglas de
